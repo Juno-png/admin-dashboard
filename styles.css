@@ -107,8 +107,7 @@
 
 .search-input {
     padding-left: 10px;
-    width: 45vw;
-    max-width: 471px;
+    width: 49vw;
     height: 25px;
     background-color: #fff7ed;
     border: none;
@@ -317,22 +316,26 @@ hr {
 .trending-container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
+    gap: 15px;
     background-color: #fb923c;
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
-    padding: 20px 20px 6px 25px;
+    padding: 20px 0px 20px 0px;
     border-radius: 5px;
     min-width: 231px;
 }
 
 .trending-profile {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
 }
 
-.trending-profile img {
+.trending-profile-info {
+    margin-left: 50px;
+}
 
+.trending-profile img {
+    margin-left: 60px;
+    margin-right: auto;
 }
 
 .trending-username {
@@ -372,13 +375,13 @@ hr {
 
 .clickable:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.07);
+    -webkit-transform: scale(1.03);
 }
 
 ul li:hover {
     text-decoration: underline;
     cursor: pointer;
-    -webkit-transform: scale(1.07);
+    -webkit-transform: scale(1.02);
 }
 
 .project-heading:hover {
@@ -394,5 +397,5 @@ ul li:hover {
 
 .trending-profile:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.03);
+    -webkit-transform: scale(1.02);
 }
