@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
@@ -14,24 +17,23 @@
 
         <div class="sidebar">
             <div class="nav-heading clickable">
-                <div>IMG</div>
-                Dashboard
+                <img class="dash-image" src="./icons/dashboard.svg" alt="dashboard SVG">Dashboard
             </div>
             <div class="nav-bar">
                 <ul class="nav-list nav-styles">
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communites</li>
+                    <li><img class="simple-icon" src="./icons/home.svg" alt="home icon">Home</li>
+                    <li><img class="simple-icon" src="./icons/profile.svg" alt="profile icon">Profile</li>
+                    <li><img class="simple-icon" src="./icons/message.svg">Messages</li>
+                    <li><img class="simple-icon" src="./icons/history.svg" alt="history icon">History</li>
+                    <li><img class="simple-icon" src="./icons/task.svg" alt="tasks icon">Tasks</li>
+                    <li><img class="simple-icon" src="./icons/group.svg" alt="communities icon">Communites</li>
                 </ul>
             </div>
             <div class="setting-bar">
                 <ul class="setting-list nav-styles">
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><img class="simple-icon" src="./icons/settings.svg" alt="settings icon">Settings</li>
+                    <li><img class="simple-icon" src="./icons/help.svg" alt="support icon">Support</li>
+                    <li><img class="simple-icon" src="./icons/privacy.svg" alt="privacy icon">Privacy</li>
                 </ul>
             </div>
         </div>
@@ -45,7 +47,7 @@
             <div class="top-header">
                 <div class="search-bar">
                     <div class="search-img clickable">
-                        <input type="image" class="search-icon" form="myform" src="">
+                        <input type="image" class="search-icon" form="myform" src="./icons/magnify.svg">
                     </div>
                     <!-- make it an input matching form-->
                     <form id="myform" method="get" action="#">
@@ -54,15 +56,15 @@
                 </div>
 
                 <div class="profile-bar">
-                    <div class="clickable">ICON</div>
-                    <div class="clickable">IMG</div>
+                    <div class="clickable"><img class="bell-icon" src="./icons/bell.svg" alt="notification icon"></div>
+                    <div class="clickable"><img class="profile-pic-small" src="./icons/cube.png" alt="profile picture"></div>
                     <div class="clickable">Juno</div>
                 </div>
             </div>
 
             <div class="bottom-header">
                 <div class="profile-display">
-                    <div class="clickable">IMG</div>
+                    <div class="clickable"><img class="profile-pic-large" src="./icons/cube.png" alt="profile picture"></div>
                     <div class="name-greeting">
                         <div class="greeting">Hi there,</div>
                         <div class="name">Juno (@uknow-juno)</div>
@@ -92,9 +94,9 @@
                         </div>
                         <div class="action-container">
                             <ul class="actions">
-                                <li class="action-option">favorite</li>
-                                <li class="action-option">save</li>
-                                <li class="action-option">fork</li>
+                                <li class="action-option"><img src="./icons/favorite.svg" alt="favorite post"></li>
+                                <li class="action-option"><img src="./icons/save.svg" alt="save post"></li>
+                                <li class="action-option"><img src="./icons/fork.svg" alt="fork project"></li>
                             </ul>
                         </div>
                     </div>
@@ -106,9 +108,9 @@
                         </div>
                         <div class="action-container">
                             <ul class="actions">
-                                <li class="action-option">favorite</li>
-                                <li class="action-option">save</li>
-                                <li class="action-option">fork</li>
+                                <li class="action-option"><img src="./icons/favorite.svg" alt="favorite post"></li>
+                                <li class="action-option"><img src="./icons/save.svg" alt="save post"></li>
+                                <li class="action-option"><img src="./icons/fork.svg" alt="fork project"></li>
                             </ul>
                         </div>
                     </div>
@@ -120,9 +122,9 @@
                         </div>
                         <div class="action-container">
                             <ul class="actions">
-                                <li class="action-option">favorite</li>
-                                <li class="action-option">save</li>
-                                <li class="action-option">fork</li>
+                                <li class="action-option"><img src="./icons/favorite.svg" alt="favorite post"></li>
+                                <li class="action-option"><img src="./icons/save.svg" alt="save post"></li>
+                                <li class="action-option"><img src="./icons/fork.svg" alt="fork project"></li>
                             </ul>
                         </div>
                     </div>
@@ -134,9 +136,9 @@
                         </div>
                         <div class="action-container">
                             <ul class="actions">
-                                <li class="action-option">favorite</li>
-                                <li class="action-option">save</li>
-                                <li class="action-option">fork</li>
+                                <li class="action-option"><img src="./icons/favorite.svg" alt="favorite post"></li>
+                                <li class="action-option"><img src="./icons/save.svg" alt="save post"></li>
+                                <li class="action-option"><img src="./icons/fork.svg" alt="fork project"></li>
                             </ul>
                         </div>
                     </div>
@@ -148,9 +150,9 @@
                         </div>
                         <div class="action-container">
                             <ul class="actions">
-                                <li class="action-option">favorite</li>
-                                <li class="action-option">save</li>
-                                <li class="action-option">fork</li>
+                                <li class="action-option"><img src="./icons/favorite.svg" alt="favorite post"></li>
+                                <li class="action-option"><img src="./icons/save.svg" alt="save post"></li>
+                                <li class="action-option"><img src="./icons/fork.svg" alt="fork project"></li>
                             </ul>
                         </div>
                     </div>
@@ -162,9 +164,9 @@
                         </div>
                         <div class="action-container">
                             <ul class="actions">
-                                <li class="action-option">favorite</li>
-                                <li class="action-option">save</li>
-                                <li class="action-option">fork</li>
+                                <li class="action-option"><img src="./icons/favorite.svg" alt="favorite post"></li>
+                                <li class="action-option"><img src="./icons/save.svg" alt="save post"></li>
+                                <li class="action-option"><img src="./icons/fork.svg" alt="fork project"></li>
                             </ul>
                         </div>
                     </div>
@@ -194,28 +196,28 @@
                 <div class="section-heading">Trending</div>
                 <div class="trending-container">
                     <div class="trending-profile">
-                        <div>IMG</div>
+                        <div><img class="profile-pic-small" src="./icons/profile1.jpg" alt="trending profile"></div>
                         <div class="trending-profile-info">
                             <div class="trending-username">@tegan</div>
                             <div class="trending-project">World Peace Builder</div>
                         </div>
                     </div>
                     <div class="trending-profile">
-                        <div>IMG</div>
+                        <div><img class="profile-pic-small" src="./icons/cube.png" alt="trending profile"></div>
                         <div class="trending-profile-info">
                             <div class="trending-username">@juno</div>
                             <div class="trending-project">Super Cool Project</div>
                         </div>
                     </div>
                     <div class="trending-profile">
-                        <div>IMG</div>
+                        <div><img class="profile-pic-small" src="./icons/allure.jpg"></div>
                         <div class="trending-profile-info">
                             <div class="trending-username">@kendall</div>
                             <div class="trending-project">Life Changing App</div>
                         </div>
                     </div>
                     <div class="trending-profile">
-                        <div>IMG</div>
+                        <div><img class="profile-pic-small" src="./icons/profile2.jpg"></div>
                         <div class="trending-profile-info">
                             <div class="trending-username">@alex</div>
                             <div class="trending-project">No Traffic Maker</div>

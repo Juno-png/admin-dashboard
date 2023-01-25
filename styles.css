@@ -22,22 +22,33 @@
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     padding: 15px 20px 20px 15px;
-    background-color: rgb(50, 177, 228);
-    color: white;
+    background-color: #94a3b8;
+    color: #f8fafc;
+}
+
+
+.dash-image{
+    width: 2em;
+    padding-right: 8px;
 }
 
 .nav-heading {
     font-weight: bold;
     font-size: 35px;
     grid-row: 1 / 2;
-    display: grid;
+    display: flex;
     align-items: center;
 }
 
 .sidebar li {
-    display: grid;
+    display: flex;
     align-items: center;
     margin-left: 7px;
+}
+
+.simple-icon {
+    width: 20px;
+    margin: 20px;
 }
 
 .nav-bar {
@@ -50,7 +61,7 @@
 }
 
 .nav-styles li {
-    padding-bottom: 20px;
+    padding: 0%;
 }
 
 .setting-bar {
@@ -69,6 +80,8 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     position: relative;
+    color: #f8fafc;
+    background-color: #475569;
     box-shadow: 0px 2px 3px rgb(110, 107, 107)
 }
 
@@ -80,14 +93,16 @@
 
 .search-bar {
     grid-column: 1 / 2;
+    display: flex;
     justify-items: center;
     align-items: center;
-    padding: 17px 0px 0px 30px;
+    padding: 10px 0px 0px 30px;
+    margin-top: 5px;
 }
 
 .search-icon {
     margin-right: 8px;
-    width: 22px;
+    width: 28px;
 }
 
 .search-input {
@@ -95,9 +110,10 @@
     width: 45vw;
     max-width: 471px;
     height: 25px;
-    background-color: antiquewhite;
+    background-color: #fff7ed;
     border: none;
     border-radius: 15px;
+    margin-top: 12px;
 }
 
 .profile-bar {
@@ -115,6 +131,31 @@
     font-weight: bold;
 }
 
+.profile-bar img {
+    margin-right: 5px;
+}
+
+.bell-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.profile-pic-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+}
+
+.profile-pic-large {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    margin-left: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+}
+
 
 .bottom-header {
     display: grid;
@@ -127,7 +168,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-self: start;
-    margin-left: 40px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.greeting {
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.name {
+    font-size: 20px;
 }
 
 .make-post {
@@ -137,13 +189,23 @@
     gap: 50px;
 }
 
+.headerbtn {
+    color: #f8fafc;
+    font-weight: 600;
+    background-color: #94a3b8;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
 /* header end */
 
 
 /* main start */
 
 .main {
-    background-color: rgba(201, 201, 200, 0.288);
+    background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -172,7 +234,7 @@
     display: grid;
     grid-template-rows: 2fr 1fr;
     grid-template-columns: 1fr 1fr;
-    background-color: aquamarine;
+    background-color: #fdba74;
     width: 80%;
     height: 180px;
     border-radius: 5px;
@@ -189,10 +251,12 @@
 .title {
     font-weight: 600;
     font-size: 1em;
+    color: #0f172a;
 }
 
 .description {
     font-size: .9em;
+    color: #475569;
 }
 
 .action-container {
@@ -202,7 +266,12 @@
 .actions {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: end;
+    justify-self: end;
+}
+
+.action-option {
+    width: 30px;
+    height: 20px;
 }
 
 ul.actions {
@@ -217,7 +286,7 @@ ul li {
 
 
 .announcements-container {
-    background-color: rgb(176, 241, 241);
+    background-color: #fb923c;
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
     padding: 20px 20px 20px 25px;
     border-radius: 5px;
@@ -229,14 +298,19 @@ ul li {
     font-weight: 600;
     font-size: 1em;
     margin-bottom: 5px;
+    color: ##0f172a;
 }
 
 .announcement-description {
     font-size: .9em;
+    color: #475569;
 }
 
 hr {
     margin: 15px 0 15px 0;
+    background-color: black;
+    height: 1px;
+    border: none;
 }
 
 
@@ -244,7 +318,7 @@ hr {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
-    background-color: rgb(176, 241, 241);
+    background-color: #fb923c;
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
     padding: 20px 20px 6px 25px;
     border-radius: 5px;
@@ -255,6 +329,22 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+.trending-profile img {
+
+}
+
+.trending-username {
+    color: #0f172a;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.trending-project {
+    color: #475569;
+    font-size: 12px;
+    
 }
 
 
