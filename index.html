@@ -9,9 +9,12 @@
 </head>
 <body>
     <div class="container">
+
+        <!--sidebar start-->
+
         <div class="sidebar">
             <div class="nav-heading clickable">
-                <p>IMG</p>
+                <div>IMG</div>
                 Dashboard
             </div>
             <div class="nav-bar">
@@ -24,57 +27,205 @@
                     <li>Communites</li>
                 </ul>
             </div>
+            <div class="setting-bar">
+                <ul class="setting-list nav-styles">
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
         </div>
+
+        <!--sidebaar end-->
+
+        <!--header start-->
+
         <div class="header">
-            <div class="topnav search">
-                <div class="bar">
-                    <input type="text" placeholder="Search">
+
+            <div class="top-header">
+                <div class="search-bar">
+                    <div class="search-img clickable">
+                        <input type="image" class="search-icon" form="myform" src="">
+                    </div>
+                    <!-- make it an input matching form-->
+                    <form id="myform" method="get" action="#">
+                        <input class="search-input" type="text" id="searchResult" name="searchResult" value=""><br><br>
+                    </form>
                 </div>
-                <div class="menu">
-                    <p>icon</p>
-                    <p>placeholder image</p>
-                    <p>Morgan Oakley</p>
+
+                <div class="profile-bar">
+                    <div class="clickable">ICON</div>
+                    <div class="clickable">IMG</div>
+                    <div class="clickable">Juno</div>
                 </div>
             </div>
-            <div class="greeting topnav">
-                <div class="logo">
-                    <p>placeholder img</p>
-                    <p>Hi there,</p>
-                    <h3>Morgan Oakley (@morgan)</h3>
+
+            <div class="bottom-header">
+                <div class="profile-display">
+                    <div class="clickable">IMG</div>
+                    <div class="name-greeting">
+                        <div class="greeting">Hi there,</div>
+                        <div class="name">Juno (@uknow-juno)</div>
+                    </div>
                 </div>    
-                <div class="actions">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
+                <div class="make-post">
+                    <button class="headerbtn clickable">New</button>
+                    <button class="headerbtn clickable">Upload</button>
+                    <button class="headerbtn clickable">Share</button>
                 </div>
             </div>
+
         </div>
-        <div class="projects">
-            <h4>Your Projects</h4>
-            <div class="card">
-                <p class="title">Super Cool Project</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</p>
+
+        <!--header end-->
+
+        <div class="main">
+
+            <div class="project-display">
+                <div class="project-section-heading">Your Projects</div>
+                <div class="projects-container">
+
+                    <div class="card">
+                        <div class="card-text">
+                            <div class="title">Super Cool Project</div>
+                            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</div>
+                        </div>
+                        <div class="action-container">
+                            <ul class="actions">
+                                <li class="action-option">favorite</li>
+                                <li class="action-option">save</li>
+                                <li class="action-option">fork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-text">
+                            <div class="title">Less Cool Project</div>
+                            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</div>
+                        </div>
+                        <div class="action-container">
+                            <ul class="actions">
+                                <li class="action-option">favorite</li>
+                                <li class="action-option">save</li>
+                                <li class="action-option">fork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-text">
+                            <div class="title">Impossible App</div>
+                            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</div>
+                        </div>
+                        <div class="action-container">
+                            <ul class="actions">
+                                <li class="action-option">favorite</li>
+                                <li class="action-option">save</li>
+                                <li class="action-option">fork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-text">
+                            <div class="title">Easy Peasy App</div>
+                            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</div>
+                        </div>
+                        <div class="action-container">
+                            <ul class="actions">
+                                <li class="action-option">favorite</li>
+                                <li class="action-option">save</li>
+                                <li class="action-option">fork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-text">
+                            <div class="title">Ad Blocker</div>
+                            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</div>
+                        </div>
+                        <div class="action-container">
+                            <ul class="actions">
+                                <li class="action-option">favorite</li>
+                                <li class="action-option">save</li>
+                                <li class="action-option">fork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-text">
+                            <div class="title">Money Maker</div>
+                            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</div>
+                        </div>
+                        <div class="action-container">
+                            <ul class="actions">
+                                <li class="action-option">favorite</li>
+                                <li class="action-option">save</li>
+                                <li class="action-option">fork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
-            <div class="card">
-                <p class="title">Less Cool Project</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</p>
+
+
+            <div class="announcements">
+                <div class="section-heading">Announcements</div>
+                <div class="announcements-container">
+                    <div class="announcement-heading">Site Maintenance</div>
+                    <div class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci Aperiam?</div>
+                    <hr>
+                    <div class="announcement-heading">Community Share Day</div>
+                    <div class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci Aperiam?</div>
+                    <hr>
+                    <div class="announcement-heading">Updated Privacy Policy</div>
+                    <div class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci Aperiam?</div>
+                </div>
             </div>
-            <div class="card">
-                <p class="title">Impossible App</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</p>
+
+
+
+            <div class="trending">
+                <div class="section-heading">Trending</div>
+                <div class="trending-container">
+                    <div class="trending-profile">
+                        <div>IMG</div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@tegan</div>
+                            <div class="trending-project">World Peace Builder</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div>IMG</div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@juno</div>
+                            <div class="trending-project">Super Cool Project</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div>IMG</div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@kendall</div>
+                            <div class="trending-project">Life Changing App</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div>IMG</div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@alex</div>
+                            <div class="trending-project">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <p class="title">Easy Peasy App</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</p>
-            </div>
-            <div class="card">
-                <p class="title">Ad Blocker</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</p>
-            </div>
-            <div class="card">
-                <p class="title">Money Maker</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates, magni qui</p>
-            </div>
+
+
+
         </div>
     </div>
 </body>
